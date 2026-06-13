@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheo Silva — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">MS<span class="accent">.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="is-active">Accueil</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn--outline nav-cta">Me contacter</a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__content">
+      <span class="badge badge--available"><span class="badge__dot"></span>Disponible pour de nouveaux projets</span>
+      <h1 class="hero__title">Matheo Silva</h1>
+      <p class="hero__role">Media Planner & E-commerce Strategist</p>
+      <p class="hero__sub">Je transforme les budgets média en croissance mesurable.</p>
+      <div class="hero__actions">
+        <a href="projects.html" class="btn btn--primary">Voir mes projets <span class="btn__icon">→</span></a>
+        <a href="contact.html" class="btn btn--ghost">Discutons</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects-preview">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Réalisations</p>
+        <h2 class="section-title">Quelques projets</h2>
+      </div>
+      <div class="cards-grid">
+        <a href="projects.html" class="card reveal reveal--delay-1">
+          <div class="card__thumb card__thumb--blue"><span class="card__tag">Media Planning</span></div>
+          <div class="card__body">
+            <h3 class="card__title">Campagne acquisition — Marque X</h3>
+            <p class="card__desc">Stratégie multicanal Google Ads + Meta Ads avec optimisation du tunnel de conversion.</p>
+            <span class="card__link">Voir le détail →</span>
+          </div>
+        </a>
+        <a href="projects.html" class="card reveal reveal--delay-2">
+          <div class="card__thumb card__thumb--green"><span class="card__tag">E-commerce</span></div>
+          <div class="card__body">
+            <h3 class="card__title">Stratégie e-commerce — Projet Y</h3>
+            <p class="card__desc">Refonte de la stratégie produit et déploiement d'une campagne Shopping Performance Max.</p>
+            <span class="card__link">Voir le détail →</span>
+          </div>
+        </a>
+        <a href="projects.html" class="card reveal reveal--delay-3">
+          <div class="card__thumb card__thumb--purple"><span class="card__tag">Communication</span></div>
+          <div class="card__body">
+            <h3 class="card__title">Plan de communication — Brand Z</h3>
+            <p class="card__desc">Plan éditorial 360°, gestion des partenariats médias et suivi des KPIs de notoriété.</p>
+            <span class="card__link">Voir le détail →</span>
+          </div>
+        </a>
+      </div>
+      <div class="section-cta reveal"><a href="projects.html" class="btn btn--ghost">Voir tous mes projets →</a></div>
+    </div>
+  </section>
+
+  <section class="section contact-strip">
+    <div class="container">
+      <div class="contact-strip__inner reveal">
+        <div>
+          <h2 class="contact-strip__title">Un projet en tête ?</h2>
+          <p class="contact-strip__sub">Réponse sous 24h.</p>
+        </div>
+        <a href="contact.html" class="btn btn--primary">Prendre contact →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Matheo Silva</p>
+    <p>Fait avec <span class="accent">♥</span></p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
